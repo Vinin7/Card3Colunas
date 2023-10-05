@@ -1,0 +1,93 @@
+body {
+  font-size: 19px;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Centralize horizontalmente */
+  align-items: center; /* Centralize verticalmente */
+  min-height: 100vh; /* Use 100% da altura da viewport */
+  background-color: #f0f0f0; /* Adicione uma cor de fundo de sua escolha */
+}
+
+h1 {
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-size: 34px; /* Aumente o tamanho do título */
+}
+
+p {
+  font-family: 'Lexend Deca', sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 20px; /* Aumente o tamanho do parágrafo */
+  margin-bottom: 10px; /* Adicione margem na parte inferior do parágrafo */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 831px;
+  height: 452px;
+}
+
+.Sedans {
+  flex: 1;
+  color: white;
+  background-color: hsl(31, 77%, 52%);
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.Suvs {
+  flex: 1;
+  color: white;
+  background-color: hsl(184, 100%, 22%);
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.Luxury {
+  flex: 1;
+  color: white;
+  background-color: hsl(179, 100%, 13%);
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Estilos adicionais para os botões (opcional) */
+.l {
+  background-color: white;
+  color: hsl(31, 77%, 52%);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 22.5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.v {
+  background-color: white;
+  color: hsl(184, 100%, 22%);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 22.5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.ve {
+  background-color: white;
+  color: hsl(179, 100%, 13%);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 22.5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button{
+  margin-top: 50px;
+}
